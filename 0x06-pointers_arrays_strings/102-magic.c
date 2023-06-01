@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 
+/*
+ * 102.magig - A program where adding one line to this code,will print a program prints a[2] = 98
+ *
+ * Return 0.
+ */
+
 int main(void)
 {
 	int n;
