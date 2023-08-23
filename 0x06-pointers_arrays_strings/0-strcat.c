@@ -1,16 +1,14 @@
 #include "main.h"
 
-/**
- * _strcat - A function that concatenates two strings
+/*_strcat - concatenates two strings
+ * description: A function tha concatenates two strings
  *
- * Description: A function that concatenates two strings
  * @dest: input value
  * @src: input value
- *
+ * @n: number of bytes from src to be apended to destination
  * Return: void
  */
-
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
@@ -20,7 +18,6 @@ char *_strcat(char *dest, char *src);
 	{
 		i++;
 	}
-
 	j = 0;
 	while (src[j] != '\0')
 	{
